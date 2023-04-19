@@ -1,0 +1,40 @@
+
+  
+.banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(https://images.pexels.com/photos/14760163/pexels-photo-14760163.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-width: 300px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 0px 100px 0px 100px;
+}
+  
+.banner-box h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+  
+.banner-box h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+  
+.banner-box span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+  
+.banner-box:hover button {
+    background: #088178;
+    border: 1px solid #088178;
+}
+  

@@ -1,0 +1,30 @@
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(https://images.pexels.com/photos/5710142/pexels-photo-5710142.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 0px 100px 100px 100px;
+}
+  
+  
+.banner h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+  
+.banner h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 16px;
+}
+  
+
