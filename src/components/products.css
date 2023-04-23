@@ -1,0 +1,9 @@
+.proddiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* .section-p1 {
+  padding: 40px 80px;
+} */

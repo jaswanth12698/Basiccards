@@ -1,27 +1,41 @@
-import React from 'react';
-import './App.css';
-import Card from './components/card';
-import Product from './components/product';
-import Offer from './components/offer';
-import Sale from './components/sale';
+import React from "react";
+import "./App.css";
+import Empcard from "./components/empcard";
+import Cards from "./components/cards";
+// import Products from "./components/products";
+// import Offer from "./components/offer";
+// import Sale from "./components/sale";
+// import Cards from "./components/cards";
+import Classcard from "./components/Classcard";
 
- 
 function App() {
-
-
   return (
     <div className="App">
       <div className="cards">
-          <Card /> <br /><br />
-          <Product /> <br /><br />
-          <Offer /> <br /><br />
-          <Sale />
+        <Empcard /> <br />
+        <br />
+        <Cards /> <br />
+        <br />
+        <Classcard />
+        <br />
+        <br />
+        {/* <Products /> <br />
+        <br />
+        <Offer /> <br />
+        <br />
+        <Sale /> */}
+        {/* <Car /> */}
+        <br />
+        <br />
       </div>
     </div>
   );
 }
 
-export default App;
-          
-                    
+// class Car extends React.Component {
+//   render() {
+//     return <h2>Hi, I am a Car!</h2>;
+//   }
+// }
 
+export default App;

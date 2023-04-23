@@ -1,15 +1,13 @@
-import React from 'react';
-import './card.css'
+import React from "react";
+import "./card.css";
 
-function card() {
+function Card({ head, img }) {
   return (
-   
     <div className="fe-box">
-        <img src="https://t3.ftcdn.net/jpg/02/64/92/28/360_F_264922838_NErJEovZiP9MTa49apqL1Vs3f88ZT8Dg.jpg" alt="Free Shipping" />
-        <h6>Free Shipping</h6>
+      <img src={img} alt="Free Shipping" />
+      <h6>{head}</h6>
     </div>
-
-  )
+  );
 }
 
-export default card
+export default Card;

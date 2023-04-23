@@ -1,19 +1,17 @@
-import React from 'react';
-import './product.css';
+import React from "react";
+import "./product.css";
 
-
-function product() {
+function Product({ ros1, im, ros2, ros3 }) {
   return (
     <div className="pro">
-        <img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHQlMjBzaGlydHxlbnwwfHwwfHw%3D&w=1000&q=80" alt='Product' />
-        <div className="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <h4>$78</h4>
-        </div>
+      <img src={im} alt="Product" />
+      <div className="des">
+        <span>{ros1}</span>
+        <h5>{ros2}</h5>
+        <h4>{ros3}</h4>
       </div>
-
-  )
+    </div>
+  );
 }
 
-export default product
+export default Product;
